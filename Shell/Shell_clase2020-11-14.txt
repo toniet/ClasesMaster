@@ -533,3 +533,13 @@
    533	mv ./shell Shell
    534	ls
    535	cat -n ~/.history > ./Shell/Shell_clase2020-11-14.txt
+   536	ls
+   537	cd Shell
+   538	gedit Shell_clase2020-11-14.txt
+   539	cd Shell
+   540	git status
+   541	git add Shell_clase2020-11-14.txt
+   542	git commit -m "commands ls, pipe, head, tail, less"
+   543	gst
+   544	git status
+   545	cat -n ~/.history > ./Shell_clase2020-11-14.txt
