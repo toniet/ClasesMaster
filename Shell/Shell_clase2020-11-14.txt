@@ -1,545 +1,706 @@
-     1	version
-     2	ver
-     3	clear
-     4	python
-     5	()()\
-     6	\
-     7	\
-     8	\
-     9	()\
-    10	\
-    11	\
-    12	\
-    13	quit
-    14	python
-    15	clear
-    16	exit
-    17	sudo timedatectl set-ntp on
-    18	exit
-    19	ls 
-    20	top
-    21	top | grep root
-    22	clear
-    23	exit
-    24	quit
-    25	exit
-    26	clear
-    27	echo $SHELL
-    28	echo $TERM
-    29	whoami
-    30	echo $HOST
-    31	echo $USER
-    32	printenv
-    33	clear
-    34	sudo apt-get install ntp
-    35	cler
-    36	clear
-    37	echo `date`
-    38	echo today is `date`
-    39	echo today is $(date)
-    40	echo today is $(echo $(date))
-    41	echo "The worls is finally\
-    42	mine"
-    43	top
-    44	clear
-    45	cat /etc/os-release
-    46	nano
-    47	clear
-    48	cd Data/shell
-    49	ls
-    50	cat Text_example.txt
-    51	cat Finn.txt
-    52	clear
-    53	cd ..
-    54	cd shell
-    55	cat Text_example.txt Text_example.txt Text_example.txt
-    56	cat -n Text_example.txt Text_example.txt Text_example.txt
-    57	cat -number Text_example.txt Text_example.txt Text_example.txt
-    58	pwd
-    59	cd ~
-    60	ls
-    61	cd ../dsc/Data
-    62	cd ~
-    63	cd /
-    64	cd ~/Data
-    65	cd ..
-    66	ls
-    67	clear
-    68	echo $PWD
-    69	cd ./D
-    70	cd ./Data
-    71	ls
-    72	cd ..
-    73	cd ~
-    74	clear
-    75	cd -
-    76	cd D
-    77	cd DA
-    78	cd Da
-    79	cd Data
-    80	cd -
-    81	cd /etc
-    82	cd -
-    83	clear
-    84	cd ~
-    85	clear
-    86	ls -a
-    87	ls -
-    88	ls -1
-    89	ls
-    90	ls -1 -s
-    91	ls --help
-    92	clear
-    93	ls  -s
-    94	ls  -1s
-    95	ls  -1sH
-    96	ls  -H
-    97	ls -la
-    98	clear
-    99	ls -la -S
-   100	ls -la -Sr
-   101	ls -la -S
-   102	ls -la -t
-   103	ls -la -tr
-   104	chmod 777 .history
-   105	ls -la -tr
-   106	chmod 755 .history
-   107	ls -la -tr
-   108	chmod 644 .history
-   109	ls -la -tr
-   110	chmod 600 .history
-   111	ls -la -tr
-   112	cd .history
-   113	cat .history
-   114	touch newfile
-   115	ls -l
-   116	rm newfile
-   117	ls
-   118	clear
-   119	mkdir first_dir
-   120	touch ./first_dir/text_file.txt
-   121	cd first_dir
-   122	ls
-   123	ls -l
-   124	chmod 676 text_file.txt
-   125	ls -l
-   126	mkdir sub1; mkdir sub2;mkdir txt_file
-   127	ls
-   128	cp text_file.txt ./sub1
-   129	ls ./sub1
-   130	mv ./sub1/text_file.txt ./sub2/text_file.txt.2
-   131	ls ./sub1
-   132	ls ./sub2
-   133	cp -r ./sub1 sub3
-   134	ls
-   135	mv ./sub2/text_file.txt.2 ./sub2/text_file.txt.backup
-   136	ls ./sub2
-   137	mv ./sub2/text_file.txt.backup .text_file.txt.backup
-   138	ls
-   139	ls -la
-   140	rm sub2
-   141	ls sub2
-   142	rm -f sub2
-   143	rm -f ./sub2
-   144	rm -r sub2
-   145	ls
-   146	cd ..
-   147	cat .history
-   148	nano
-   149	exit
-   150	ls
-   151	ls /la
-   152	ls -la
-   153	cd Desktop
-   154	ls
-   155	ls -l
-   156	chmod 777 MASTER
-   157	ls
-   158	ls -l
-   159	ls
-   160	mkdir MASTER
-   161	ls
-   162	ls -l
-   163	ls
-   164	cd MASTER
-   165	ls
-   166	cat Anotaciones
-   167	cd Desktop
-   168	ls /la
-   169	ls -la
-   170	chmod 777 Info
-   171	ls -la
-   172	sudo chmod 777 Info
-   173	ls
-   174	ls -la
-   175	sudo root
-   176	sudo r
-   177	sudo
-   178	sudo su
-   179	exit
-   180	ls
-   181	mkdir first_dir/hola/holi
-   182	mkdir -p first_dir/hola/holi
-   183	git
-   184	clear
-   185	git config --global user.name "Antonio Ales"
-   186	git config --global user.email "antonio_ales@yahoo.es"
-   187	cat .git/config
-   188	ls -ls
-   189	cat .git/gitconfig
-   190	cat ./gitconfig
-   191	cat ./.gitconfig
-   192	git clone https://github.com/toniet/master-ds.git
-   193	ls
-   194	cd master-ds
-   195	ls -la
-   196	touch nuevoFichero.txt
-   197	git status
-   198	touch otroArchivo.txt
-   199	git status
-   200	git add nuevoFichero.txt
-   201	git status
-   202	git commit -m 'Añado un archivo muy bueno'
-   203	git status
-   204	git push
-   205	git status
-   206	rm otroArchivo.txt
-   207	git status
-   208	git diff
-   209	git status
-   210	cd ..
-   211	cd master-ds
-   212	cd ..
-   213	exit
-   214	ls
-   215	ls first_dir
-   216	ls -r first_dir
-   217	rm -r first_dir
-   218	ls
-   219	mkdir Repos
-   220	cd Repos
-   221	git clone https://github.com/toniet/master_ds_2.git
-   222	ls
-   223	git clone https://github.com/toniet/master-ds.git
-   224	ls
-   225	cd ..
-   226	rm -r master-ds
-   227	ls
-   228	rm -rf master-ds
-   229	ls
-   230	cd Repos
-   231	ls
-   232	cls
-   233	clear
-   234	ls
-   235	git status
-   236	cd master-ds
-   237	git status
-   238	cd ..
-   239	cd master_ds_2
-   240	git status
-   241	ls -la
-   242	ll
-   243	ll -a
-   244	clear
-   245	clear 
-   246	cd .git
-   247	ls
-   248	cd ..
-   249	cd master_ds_2
-   250	clear 
-   251	gedit README.md
-   252	git status
-   253	cd ..
-   254	ls
-   255	cd De
-   256	cd ..
-   257	cd Desktop/
-   258	ls
-   259	cd MASTER
-   260	ls
-   261	git clone https://github.com/toniet/sesionesMasterDS.git
-   262	ls
-   263	cd sesionesMasterDS
-   264	cd ..
-   265	ls
-   266	cd ..
-   267	cd Repos
-   268	cd master_ds_2
-   269	git add
-   270	git add README.md
-   271	clear
-   272	cd /home/dsc/Desktop/MASTER/sesionesMasterDS
-   273	git status
-   274	cd -
-   275	git commit
-   276	git log
-   277	cd -
-   278	ls
-   279	mv -r ../Sesion1 ./
-   280	mv  ../Sesion1 ./
-   281	ls
-   282	ls ../
-   283	get status
-   284	ls
-   285	git status
-   286	git add Sesion1/
-   287	git status
-   288	git commit -m "Subida ficheros de sesion 1 del master"
-   289	get status
-   290	git status
-   291	ls
-   292	cd Sesion1
-   293	git status
-   294	la
-   295	ll -a
-   296	ls
-   297	cd ..
-   298	ls
-   299	cd ..
-   300	ls
-   301	rm -rf sesionesMasterDS
-   302	ls
-   303	cd -
-   304	ls
-   305	cd ..
-   306	cd Repos
-   307	cd master_ds_2
-   308	dir
-   309	ls
-   310	touch Hola.txt
-   311	gedit Hola.txt
-   312	git status
-   313	git add -u
-   314	git add Hola.txt
-   315	git status
-   316	git commit -m "Subida fichero Hola.txt"
-   317	git push
-   318	cd ~/Desktop/MASTER
-   319	git clone https://github.com/toniet/AnotacionesMasterDS.git
-   320	ls
-   321	sudo shutdown
-   322	cls
-   323	clear
-   324	cd Repos
-   325	git init TFM
-   326	ls
-   327	cd TFM
-   328	touch my_ideas.txt
-   329	gedit my_ideas.txt
-   330	git add my_ideas.txt
-   331	git commit -m "My initial idea"
-   332	git status
-   333	cd ..
-   334	ls
-   335	cd ~/Desktop/MASTER
-   336	cd AnotacionesMasterDS
-   337	git status
-   338	cd -
-   339	cd ~/Repos/TFM
-   340	gedit my_second_idea.txt
-   341	git status
-   342	cd -
-   343	git status
-   344	git add Anotaciones_13112020.txt Anotaciones_14112020.txt
-   345	git status
-   346	git commit -m "Subida inicial de ficheros de Anotaciones"
-   347	git status
-   348	git push
-   349	git status
-   350	cdcd -
-   351	cd -
-   352	git status
-   353	gedit my_ideas.txt
-   354	git add -u
-   355	git status
-   356	git add my_second_idea.txt
-   357	git status
-   358	git commit -m "Prueba con ficheros"
-   359	git status
-   360	git log
-   361	git remote add origin https://github.com/toniet/MisIdeas.git
-   362	git branch -M main
-   363	git push -u origin main
-   364	cd -
-   365	git add -u
-   366	git status
-   367	git commit -m "nuevas anotaciones sesion1 dia 14"
-   368	git push
-   369	cd -
-   370	ls
-   371	cd ..
-   372	mv TFM MisIdeas
-   373	ls
-   374	cd MisIdeas
-   375	git status
-   376	git pull
-   377	gi log
-   378	git log
-   379	gedit  my_ideas.txt
-   380	cd..
-   381	ls
-   382	cd ..
-   383	ls
-   384	cd MisIdeas
-   385	ls
-   386	gedit my_ideas.txt
-   387	git add -u
-   388	git commit -m "Prueba de cambio en local"
-   389	git log
-   390	git push
-   391	git log
-   392	clear
-   393	cd..
-   394	cd ..
-   395	cd
-   396	ls
-   397	cd
-   398	man cp
-   399	man mv
-   400	man cd
-   401	man bash
-   402	man mkdir
-   403	cp --help
-   404	less .gitconfig
-   405	cd Data
-   406	cd opentraveldata
-   407	cat ref_airline_nb_of_flights.csv
-   408	less ref_airline_nb_of_flights.csv
-   409	less -n ref_airline_nb_of_flights.csv
-   410	less -N ref_airline_nb_of_flights.csv
-   411	less optd_por_public.csv
-   412	less -N optd_por_public.csv
-   413	less -N -S optd_por_public.csv
-   414	clear
-   415	ls -la
-   416	cdc..
-   417	cd ..
-   418	cd Desktop
-   419	cd MASTER
-   420	cd AnotacionesMasterDS
-   421	ls
-   422	l
-   423	c
-   424	l
-   425	alias gc="git commit -m"
-   426	gc test
-   427	less -N -S printenv
-   428	printenv
-   429	c
-   430	less .zshrc
-   431	less ~/.zshrc
-   432	gc
-   433	alias gst="git status"
-   434	gst
-   435	c
-   436	printenv
-   437	c
-   438	type python
-   439	which python
-   440	gst
-   441	c
-   442	cd ../shell
-   443	c
-   444	head Finn.txt
-   445	head -25 Finn.txt
-   446	head --help
-   447	head -n 25 Finn.txt
-   448	head -n -25 Finn.txt
-   449	head --help
-   450	head -n -5 Finn.txt
-   451	head -n 5 Finn.txt
-   452	head -n -5 Finn.txt
-   453	head ~/.gitconfig
-   454	head -1  ~/.gitconfig
-   455	head -n -1  ~/.gitconfig
-   456	head -n 1  ~/.gitconfig
-   457	head -n -2  ~/.gitconfig
-   458	tail  Finn.txt
-   459	tail -n 5 Finn.txt
-   460	tail -n -5 Finn.txt
-   461	tail -n +5 Finn.txt
-   462	wc Finn.txt
-   463	wc --help
-   464	c
-   465	wc | ECHO "HELP meeeee"
-   466	echo "HELP meeeee" | wc
-   467	c
-   468	cat Text_example.txt|wc
-   469	cat Text_example.txt | head 10 | wc
-   470	cat Text_example.txt | head | wc
-   471	cat Text_example.txt | head -3 | wc
-   472	head -3 Text_example.txt | wc 
-   473	head -3 Text_example.txt | wc >> prueba.txt
-   474	cat prueba.txt
-   475	rm prueba.txt
-   476	head -3 Text_example.txt | wc > prueba.txt
-   477	file prueba.txt
-   478	rm prueba.txt
-   479	git add -u
-   480	git commit -m modificaciones
-   481	git log
-   482	git push
-   483	git log
-   484	c
-   485	wc < Text_example.txt
-   486	c
-   487	cd ..
-   488	ls
-   489	cd opentraveldata
-   490	ls
-   491	ñ
-   492	l
-   493	ls --help
-   494	ls -l -S
-   495	ls -l -S | head
-   496	ls -l -S | head -2
-   497	ls -l -S | head -1
-   498	ls -l -S | head -2 | tail +1
-   499	ls -l -S | head -2 | tail +2
-   500	ls -l -S | head -2 | tail +2 > largest_file.txt
-   501	cat largest_file.txt
-   502	ls
-   503	wc Finn.txt
-   504	cd ..
-   505	cd shell
-   506	wc Finn.txt
-   507	wc Finn.txt -W
-   508	wc--help
-   509	wc --help
-   510	wc -W Finn.txt
-   511	wc -w Finn.txt
-   512	cd -
-   513	cd opentraveldata
-   514	ls
-   515	cd ..
-   516	ls
-   517	cd shell
-   518	cat -n Text_example.txt
-   519	cat -n Text_example.txt | head -3
-   520	cat -n Text_example.txt | head -3 
-   521	head -5 Finn.txt
-   522	head -5 Finn.txt | wc
-   523	head -5 Finn.txt | wc -w
-   524	head -5 Finn.txt
-   525	gst
-   526	cd ~
-   527	ls
-   528	cd Repos
-   529	git init ClasesMaster
-   530	cd Clases
-   531	cd ClasesMaster
-   532	mkdir shell
-   533	mv ./shell Shell
-   534	ls
-   535	cat -n ~/.history > ./Shell/Shell_clase2020-11-14.txt
-   536	ls
-   537	cd Shell
-   538	gedit Shell_clase2020-11-14.txt
-   539	cd Shell
-   540	git status
-   541	git add Shell_clase2020-11-14.txt
-   542	git commit -m "commands ls, pipe, head, tail, less"
-   543	gst
-   544	git status
-   545	cat -n ~/.history > ./Shell_clase2020-11-14.txt
+version
+ver
+clear
+python
+()()\
+\
+\
+\
+()\
+\
+\
+\
+quit
+python
+clear
+exit
+sudo timedatectl set-ntp on
+exit
+ls 
+top
+top | grep root
+clear
+exit
+quit
+exit
+clear
+echo $SHELL
+echo $TERM
+whoami
+echo $HOST
+echo $USER
+printenv
+clear
+sudo apt-get install ntp
+cler
+clear
+echo `date`
+echo today is `date`
+echo today is $(date)
+echo today is $(echo $(date))
+echo "The worls is finally\
+mine"
+top
+clear
+cat /etc/os-release
+nano
+clear
+cd Data/shell
+ls
+cat Text_example.txt
+cat Finn.txt
+clear
+cd ..
+cd shell
+cat Text_example.txt Text_example.txt Text_example.txt
+cat -n Text_example.txt Text_example.txt Text_example.txt
+cat -number Text_example.txt Text_example.txt Text_example.txt
+pwd
+cd ~
+ls
+cd ../dsc/Data
+cd ~
+cd /
+cd ~/Data
+cd ..
+ls
+clear
+echo $PWD
+cd ./D
+cd ./Data
+ls
+cd ..
+cd ~
+clear
+cd -
+cd D
+cd DA
+cd Da
+cd Data
+cd -
+cd /etc
+cd -
+clear
+cd ~
+clear
+ls -a
+ls -
+ls -1
+ls
+ls -1 -s
+ls --help
+clear
+ls  -s
+ls  -1s
+ls  -1sH
+ls  -H
+ls -la
+clear
+ls -la -S
+ls -la -Sr
+ls -la -S
+ls -la -t
+ls -la -tr
+chmod 777 .history
+ls -la -tr
+chmod 755 .history
+ls -la -tr
+chmod 644 .history
+ls -la -tr
+chmod 600 .history
+ls -la -tr
+cd .history
+cat .history
+touch newfile
+ls -l
+rm newfile
+ls
+clear
+mkdir first_dir
+touch ./first_dir/text_file.txt
+cd first_dir
+ls
+ls -l
+chmod 676 text_file.txt
+ls -l
+mkdir sub1; mkdir sub2;mkdir txt_file
+ls
+cp text_file.txt ./sub1
+ls ./sub1
+mv ./sub1/text_file.txt ./sub2/text_file.txt.2
+ls ./sub1
+ls ./sub2
+cp -r ./sub1 sub3
+ls
+mv ./sub2/text_file.txt.2 ./sub2/text_file.txt.backup
+ls ./sub2
+mv ./sub2/text_file.txt.backup .text_file.txt.backup
+ls
+ls -la
+rm sub2
+ls sub2
+rm -f sub2
+rm -f ./sub2
+rm -r sub2
+ls
+cd ..
+cat .history
+nano
+exit
+ls
+ls /la
+ls -la
+cd Desktop
+ls
+ls -l
+chmod 777 MASTER
+ls
+ls -l
+ls
+mkdir MASTER
+ls
+ls -l
+ls
+cd MASTER
+ls
+cat Anotaciones
+cd Desktop
+ls /la
+ls -la
+chmod 777 Info
+ls -la
+sudo chmod 777 Info
+ls
+ls -la
+sudo root
+sudo r
+sudo
+sudo su
+exit
+ls
+mkdir first_dir/hola/holi
+mkdir -p first_dir/hola/holi
+git
+clear
+git config --global user.name "Antonio Ales"
+git config --global user.email "antonio_ales@yahoo.es"
+cat .git/config
+ls -ls
+cat .git/gitconfig
+cat ./gitconfig
+cat ./.gitconfig
+git clone https://github.com/toniet/master-ds.git
+ls
+cd master-ds
+ls -la
+touch nuevoFichero.txt
+git status
+touch otroArchivo.txt
+git status
+git add nuevoFichero.txt
+git status
+git commit -m 'Añado un archivo muy bueno'
+git status
+git push
+git status
+rm otroArchivo.txt
+git status
+git diff
+git status
+cd ..
+cd master-ds
+cd ..
+exit
+ls
+ls first_dir
+ls -r first_dir
+rm -r first_dir
+ls
+mkdir Repos
+cd Repos
+git clone https://github.com/toniet/master_ds_2.git
+ls
+git clone https://github.com/toniet/master-ds.git
+ls
+cd ..
+rm -r master-ds
+ls
+rm -rf master-ds
+ls
+cd Repos
+ls
+cls
+clear
+ls
+git status
+cd master-ds
+git status
+cd ..
+cd master_ds_2
+git status
+ls -la
+ll
+ll -a
+clear
+clear 
+cd .git
+ls
+cd ..
+cd master_ds_2
+clear 
+gedit README.md
+git status
+cd ..
+ls
+cd De
+cd ..
+cd Desktop/
+ls
+cd MASTER
+ls
+git clone https://github.com/toniet/sesionesMasterDS.git
+ls
+cd sesionesMasterDS
+cd ..
+ls
+cd ..
+cd Repos
+cd master_ds_2
+git add
+git add README.md
+clear
+cd /home/dsc/Desktop/MASTER/sesionesMasterDS
+git status
+cd -
+git commit
+git log
+cd -
+ls
+mv -r ../Sesion1 ./
+mv  ../Sesion1 ./
+ls
+ls ../
+get status
+ls
+git status
+git add Sesion1/
+git status
+git commit -m "Subida ficheros de sesion 1 del master"
+get status
+git status
+ls
+cd Sesion1
+git status
+la
+ll -a
+ls
+cd ..
+ls
+cd ..
+ls
+rm -rf sesionesMasterDS
+ls
+cd -
+ls
+cd ..
+cd Repos
+cd master_ds_2
+dir
+ls
+touch Hola.txt
+gedit Hola.txt
+git status
+git add -u
+git add Hola.txt
+git status
+git commit -m "Subida fichero Hola.txt"
+git push
+cd ~/Desktop/MASTER
+git clone https://github.com/toniet/AnotacionesMasterDS.git
+ls
+sudo shutdown
+cls
+clear
+cd Repos
+git init TFM
+ls
+cd TFM
+touch my_ideas.txt
+gedit my_ideas.txt
+git add my_ideas.txt
+git commit -m "My initial idea"
+git status
+cd ..
+ls
+cd ~/Desktop/MASTER
+cd AnotacionesMasterDS
+git status
+cd -
+cd ~/Repos/TFM
+gedit my_second_idea.txt
+git status
+cd -
+git status
+git add Anotaciones_13112020.txt Anotaciones_14112020.txt
+git status
+git commit -m "Subida inicial de ficheros de Anotaciones"
+git status
+git push
+git status
+cdcd -
+cd -
+git status
+gedit my_ideas.txt
+git add -u
+git status
+git add my_second_idea.txt
+git status
+git commit -m "Prueba con ficheros"
+git status
+git log
+git remote add origin https://github.com/toniet/MisIdeas.git
+git branch -M main
+git push -u origin main
+cd -
+git add -u
+git status
+git commit -m "nuevas anotaciones sesion1 dia 14"
+git push
+cd -
+ls
+cd ..
+mv TFM MisIdeas
+ls
+cd MisIdeas
+git status
+git pull
+gi log
+git log
+gedit  my_ideas.txt
+cd..
+ls
+cd ..
+ls
+cd MisIdeas
+ls
+gedit my_ideas.txt
+git add -u
+git commit -m "Prueba de cambio en local"
+git log
+git push
+git log
+clear
+cd..
+cd ..
+cd
+ls
+cd
+man cp
+man mv
+man cd
+man bash
+man mkdir
+cp --help
+less .gitconfig
+cd Data
+cd opentraveldata
+cat ref_airline_nb_of_flights.csv
+less ref_airline_nb_of_flights.csv
+less -n ref_airline_nb_of_flights.csv
+less -N ref_airline_nb_of_flights.csv
+less optd_por_public.csv
+less -N optd_por_public.csv
+less -N -S optd_por_public.csv
+clear
+ls -la
+cdc..
+cd ..
+cd Desktop
+cd MASTER
+cd AnotacionesMasterDS
+ls
+l
+c
+l
+alias gc="git commit -m"
+gc test
+less -N -S printenv
+printenv
+c
+less .zshrc
+less ~/.zshrc
+gc
+alias gst="git status"
+gst
+c
+printenv
+c
+type python
+which python
+gst
+c
+cd ../shell
+c
+head Finn.txt
+head -25 Finn.txt
+head --help
+head -n 25 Finn.txt
+head -n -25 Finn.txt
+head --help
+head -n -5 Finn.txt
+head -n 5 Finn.txt
+head -n -5 Finn.txt
+head ~/.gitconfig
+head -1  ~/.gitconfig
+head -n -1  ~/.gitconfig
+head -n 1  ~/.gitconfig
+head -n -2  ~/.gitconfig
+tail  Finn.txt
+tail -n 5 Finn.txt
+tail -n -5 Finn.txt
+tail -n +5 Finn.txt
+wc Finn.txt
+wc --help
+c
+wc | ECHO "HELP meeeee"
+echo "HELP meeeee" | wc
+c
+cat Text_example.txt|wc
+cat Text_example.txt | head 10 | wc
+cat Text_example.txt | head | wc
+cat Text_example.txt | head -3 | wc
+head -3 Text_example.txt | wc 
+head -3 Text_example.txt | wc >> prueba.txt
+cat prueba.txt
+rm prueba.txt
+head -3 Text_example.txt | wc > prueba.txt
+file prueba.txt
+rm prueba.txt
+git add -u
+git commit -m modificaciones
+git log
+git push
+git log
+c
+wc < Text_example.txt
+c
+cd ..
+ls
+cd opentraveldata
+ls
+ñ
+l
+ls --help
+ls -l -S
+ls -l -S | head
+ls -l -S | head -2
+ls -l -S | head -1
+ls -l -S | head -2 | tail +1
+ls -l -S | head -2 | tail +2
+ls -l -S | head -2 | tail +2 > largest_file.txt
+cat largest_file.txt
+ls
+wc Finn.txt
+cd ..
+cd shell
+wc Finn.txt
+wc Finn.txt -W
+wc--help
+wc --help
+wc -W Finn.txt
+wc -w Finn.txt
+cd -
+cd opentraveldata
+ls
+cd ..
+ls
+cd shell
+cat -n Text_example.txt
+cat -n Text_example.txt | head -3
+cat -n Text_example.txt | head -3 
+head -5 Finn.txt
+head -5 Finn.txt | wc
+head -5 Finn.txt | wc -w
+head -5 Finn.txt
+gst
+cd ~
+ls
+cd Repos
+git init ClasesMaster
+cd Clases
+cd ClasesMaster
+mkdir shell
+mv ./shell Shell
+ls
+cat -n ~/.history > ./Shell/Shell_clase2020-11-14.txt
+ls
+cd Shell
+gedit Shell_clase2020-11-14.txt
+cd Shell
+git status
+git add Shell_clase2020-11-14.txt
+git commit -m "commands ls, pipe, head, tail, less"
+gst
+git status
+cat -n ~/.history > ./Shell_clase2020-11-14.txt
+git add -u
+git commit -m "Añadir el tema de la cracion del repo local"
+gedit Shell_clase2020-11-14.txt
+cd..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ClasesMaster
+cd Shell
+c
+las
+ls
+cd ..
+ls
+git remote add origin https://github.com/toniet/ClasesMaster.git\
+git branch -M main\
+git push -u origin main
+gst
+git status
+cat -n ~/.history > ./Shell_clase2020-11-14.txt
+git status
+git add -u
+git status
+git add Shell_clase2020-11-14.txt
+git --help
+git show
+git status
+git reset HEAD Shell_clase2020-11-14.txt
+git status
+ls
+rm Shell_clase2020-11-14.txt
+cd Shell
+ls
+git log
+git show
+gst
+git add -u
+gst
+git commmit -m "nuevas anotaciones"
+gst
+git commit -m "nuevas anotaciones"
+gst
+git push
+c
+c
+find --help
+find Text_example.txt
+cd ~
+c
+find - -name "text_file*"
+find . -name "text_file*"
+find . -name "Text_file*"
+find . -name "text_file*"
+find . -iname "tExt_file*"
+find . -type d -name "text_file*"
+find . -type f -name "text_file*"
+find . -type f -name "Text_example*"
+find . -type f -name "Finn*"
+man find
+find . -type f -maxdepth 3 -name "Text_example*"
+find . -maxdepth 3 -name "Text_example*"
+find . -maxdepth 3 -type f -name "Text_example*"
+find . -maxdepth 3 -type f -name "text_file*"
+find . -maxdepth 5 -type f -name "text_file*"
+find -type f -perm 777
+find -type d -perm 777
+find -type f -perm 777
+find -type f!  -perm 777
+find -type f ! -perm 777
+find -type f -empty
+find -type f -empty | wc -l
+find -type f -size +10M 
+find -type f -size +10M | wc -l
+sudo find -type f -size +10M | wc -l
+sudo find -type f -size +15M | wc -l
+sudo find -type f -size +35M | wc -l
+sudo find -type f -size +50M | wc -l
+sudo find -type f -size +70M
+sudo find -type f -size +70M | wc -l
+sudo find -type f -size +100M | wc -l
+sudo find -type f -size +100M
+sudo find -type f -mmin -60
+sudo find -type f -iname "text_file*"
+c
+sudo find -type f -iname "text_file*" | wc
+sudo find -type f -iname "text_file*" -exec echo "FOUND IT"
+sudo find -type f -iname "text_file*" -exec echo "FOUND IT" \:
+sudo find -type f -iname "text_file*" -exec echo "FOUND IT" \;
+echo this; echo that
+echo this\; echo that
+sudo find -type f -iname "text_file*" -exec echo "FOUND IT";echo adios \;
+sudo find -type f -iname "text_file*" -exec echo "FOUND IT";echo "adios" \;
+sudo find -type f -iname "text_file*" -exec echo "FOUND IT" \;
+sudo find -type f -iname "text_file*" -exec ls l {} \;
+sudo find -type f -iname "text_file*" -exec ls -l {} \;
+sudo find -type f -iname "text_file*" -exec cat {} \;
+c
+sudo find -type f -iname "text_file*" -exec cat {}|wc -l \;
+sudo find -type f -iname "text_file*" -exec cat {} | wc -l \;
+sudo find -type f -iname "text_file*" -exec cat {} \;
+sudo find -type f -iname "text_file*" -exec head -2 {} \;
+sudo find -type f -iname "text_file*" -exec ls -l {} \;
+sudo find -type f -iname "text_file*" -exec ls -l {} \; -exec head -2 {}
+sudo find -type f -iname "text_file*" -exec ls -l {} \; -exec head -2 {} \;
+sudo find -type f -iname "text_file*" -ok ls -l {}
+sudo find -type f -iname "text_file*" -ok ls -l {} \:
+sudo find -type f -iname "text_file*" -ok ls -l {} \;
+c
+sudo find -type f -iname "text_file*" -exec ls -l {} \; | wc -l
+sudo find -type f -iname "text_file*" -exec bash -c "head -2 {} | wc -l" \n
+sudo find -type f -iname "text_file*" -exec bash -c "head -2 {} | wc -l" \;
+sudo find -type f -iname "text_file*" -exec bash -c "head -2 {} | wc" \;
+gst
+git show
+git add -u
+find -type f -mmin -60
+sudo find -type f -mmin -60
+sudo find -type f -empty ! -perm 777
+sudo find -type f -empty erm 777
+sudo find -type f -empty ! -perm 777
+sudo find -type f -empty ! -perm 777 -ok chmod 777 {}
+sudo find -type f -empty ! -perm 777 -ok chmod 777 {} \;
+cd Data
+ls
+find -type d
+find -type d -exec ls {}
+find -type d -exec ls {}\;
+find -type d -exec ls {} \;
+find -type d -exec echo "name {}" \;-exec ls -l {} \;
+find -type d -exec echo "{}\n" \;-exec ls -l {} \;
+find -type d -exec echo "{}\n" \; -exec ls -l {} \;
+find -type d -exec echo "{}\n" \; -exec ls -l -S {} \;
+find -type d -exec bash -c "ls -l -S {}| head -3"
+find -type d -exec bash -c "ls -l -S {}| head -3"\;
+find -type d -exec bash -c "ls -l -S {}| head -3" \;
+find -type d -exec bash -c "ls -l -S {}| head -4" \;
+find -type d -exec bash -c "echo {}; ls -l -S {}| head -4" \;
+find -type d -exec bash -c "echo directrio{}; ls -l -S {}| head -4" \;
+find -type d -exec bash -c "echo "directrio {}"; ls -l -S {}| head -4" \;
+find -type d -exec bash -c "echo directrio {}; ls -l -S {}| head -4" \;
+cd ..
+find -type f -mmin 60
+sudo find -type f -mmin 60
+sudo find -type f -mmin -60
+sudo find -type f -empty ! -perm 777
+c
+git add -u
+git commit -m "final de clase"
+git push
+exit
+exit
+cd Repos
+ls
+cd C
+cd ClasesMaster
+cd Shell
+ls
+cat ~/.history Shell_clase2020-11-14.txt
+cat ~/.history > Shell_clase2020-11-14.txt
