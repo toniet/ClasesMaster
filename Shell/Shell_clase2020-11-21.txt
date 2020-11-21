@@ -1,0 +1,46 @@
+cd ..
+mkdir my_scripts
+mv ~/Data/opentraveldata/colum_name_number.sh my_scripts
+echo $PATH
+echo $PATH | tr : "\n"
+cp .zshrc .zshrc _backup
+cp .zshrc .zshrc_backup
+gedit .zshrc
+column_name_number.sh 
+exit
+echo $PATH
+colum_name_number.sh
+cd my_scripts
+ls
+mv colum_name_number.sh column_name_number.sh
+cd ..
+gedit README.md
+ls
+gedit .zshrc
+exit
+echo $PATH | tr : "\n"
+cd Data/
+cd opentraveldata
+column_name_number.sh optd_aircraft.csv "^"
+exit
+cd ..
+cd Desktop/MASTER/AnotacionesMasterDS
+find -type f column*
+csvlook -d "^" optd_aircraft.csv | less 
+csvlook -d "^" optd_aircraft.csv | less -S
+csvlook -d "^" optd_por_public.csv | less -S
+csvlook -l -d "^" optd_por_public.csv | less -S
+head optd_por_public.csv | csvlook -l -d "^" | less --S
+head optd_por_public.csv | csvlook -l -d "^" | less -S
+csvstat -d "^" optd_por_public.csv | less -S
+cd Data/opentraveldata
+csvcut -d "^" -c manufacturer,aircraft_type optd_aircraft.csv| less -S
+exit
+cvssql -d "^" optd_aircraft.csv
+csvsql -d "^" optd_aircraft.csv
+cd ..
+cd RE
+cd Repos
+ls
+cd ClasesMaster
+cat ~/.history > ./Shell/Shell_clase2020-11-21.txt
