@@ -6,4 +6,4 @@
 *.png
 *.csv
 *.pdf
-.RecommenderSystems/ml-100k/*
+RecommenderSystems/ml-100k/*
