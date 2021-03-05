@@ -6,4 +6,6 @@
 *.png
 *.csv
 *.pdf
+*.zip
+*.txt
 RecommenderSystems/ml-100k/*
