@@ -9,3 +9,4 @@
 *.zip
 *.txt
 RecommenderSystems/ml-100k/*
+kschool_nlp/__pycache__/*
